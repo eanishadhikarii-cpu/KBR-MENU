@@ -40,11 +40,22 @@
 html{scroll-behavior:smooth}
 body{
   font-family:'Inter',system-ui,sans-serif;
-  background:var(--bg);color:var(--text);
+  background:var(--bg) url('bg.jpg') center/cover fixed;
+  color:var(--text);
   -webkit-font-smoothing:antialiased;
   overflow-x:hidden;
   transition:background var(--t),color var(--t);
 }
+body::before{
+  content:'';
+  position:fixed;inset:0;
+  background:rgba(245,244,240,.40);
+  z-index:0;pointer-events:none;
+}
+[data-theme="dark"] body::before{
+  background:rgba(17,16,9,.55);
+}
+.header,.main,.footer{position:relative;z-index:1;}
 img{display:block;max-width:100%}
 button{cursor:pointer;border:none;background:none;font-family:inherit}
 
@@ -275,6 +286,23 @@ button{cursor:pointer;border:none;background:none;font-family:inherit}
 .empty-ico{font-size:50px;margin-bottom:12px}
 .empty p{font-size:17px;font-weight:700;color:var(--text);margin-bottom:5px}
 .empty span{font-size:13px}
+
+/* ═══════════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════════ */
+.footer{
+  text-align:center;
+  padding:24px 16px 40px;
+  border-top:1px solid var(--border);
+}
+.footer-img{
+  max-width:320px;
+  width:100%;
+  height:auto;
+  border-radius:var(--radius);
+  margin:0 auto;
+  object-fit:contain;
+}
 
 /* ═══════════════════════════════════════════════
    FAB SCROLL TOP

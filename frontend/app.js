@@ -240,7 +240,7 @@ const MENU = [
     { name: 'CB (The Classic) Half',   price: '800',  veg: true },
   ]},
   { cat: 'RUM', items: [
-    { name: 'Kukhuri Rum', price: '110 / 210 / 2500', veg: true },
+    { name: 'Kukhuri Rum', price: '220 / 210 / 2500', veg: true },
   ]},
   { cat: 'VODKA', items: [
     { name: '8848', price: '120 / 230 / 2550', veg: true },
@@ -248,7 +248,7 @@ const MENU = [
   { cat: 'APPLESIDER & WINE', items: [
     { name: 'Applesider', price: '260',  veg: true },
     { name: 'Big Master', price: '950',  veg: true },
-    { name: 'Proto',      price: '2800', veg: true },
+    { name: 'Proto',      price: '3300', veg: true },
     { name: 'Robortson',  price: '1850', veg: true },
     { name: 'JP Chenet',  price: '2350', veg: true },
     { name: 'Divine',     price: '950',  veg: true },
