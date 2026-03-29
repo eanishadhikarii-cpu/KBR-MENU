@@ -8,8 +8,6 @@ const MENU = [
     { name: 'Black Tea',                      price: '20',   veg: true  },
     { name: 'Lemon Tea',                      price: '25',   veg: true  },
     { name: 'Hot Lemon with Honey & Ginger',  price: '150',  veg: true  },
-    { name: 'Black Coffee',                   price: '70',   veg: true  },
-    { name: 'Milk Coffee',                    price: '100',  veg: true  },
     { name: 'Green Tea',                      price: '50',   veg: true  },
     { name: 'Lemon Green Tea',                price: '60',   veg: true  },
   ]},
