@@ -286,7 +286,8 @@ const MENU = [
     { name: 'CB (The Classic) Half',   price: '800',  veg: true },
   ]},
   { cat: 'RUM', items: [
-    { name: 'Kukhuri Rum', price: '220 / 210 / 2500', veg: true },
+    { name: 'Kukhuri Rum 1 Pac',     price: '150', veg: true },
+    { name: 'Kukhuri Rum Half Pac',  price: '80',  veg: true },
   ]},
   { cat: 'VODKA', items: [
     { name: '8848', price: '120 / 230 / 2550', veg: true },
