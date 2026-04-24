@@ -71,8 +71,8 @@ const MENU = [
     { name: 'Blue Bliss', price: '210', veg: true },
   ]},
   { cat: 'BUBBLE TEA', items: [
-    { name: 'Strawberry Bubble Tea', price: '380', veg: true },
-    { name: 'Mango Bubble Tea', price: '380', veg: true },
+    { name: 'Strawberry Bubble Tea', price: '250', veg: true },
+    { name: 'Mango Bubble Tea', price: '250', veg: true },
   ]},
   { cat: 'COLD DRINKS', items: [
     { name: 'Pepsi', price: '70', veg: true },
